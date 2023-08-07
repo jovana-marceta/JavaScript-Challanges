@@ -6,5 +6,6 @@ Output : 4, 0, -1
 
 const numbers = [0, -1, 4];
 numbers.sort((a, b) => b - a);
+const sortedString = numbers.map(num => num.toString());
 
-console.log(numbers);
+console.log(sortedString.join(', '));
